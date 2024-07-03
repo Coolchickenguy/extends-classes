@@ -4,6 +4,7 @@
   "engines": {
     "node": ">=6.0.0"
   },
+  "types": "lib/extends-classes.d.ts",
   "engineStrict": true,
   "description": "Extend from multiple classes!",
   "main": "index.js",
@@ -35,6 +36,10 @@
     "method-missing": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "^3.18.0"
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.6.0",
+    "eslint": "^9.6.0",
+    "eslint-plugin-jsdoc": "^48.5.0",
+    "globals": "^15.8.0"
   }
 }
